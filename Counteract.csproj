@@ -228,6 +228,7 @@
     <Compile Include="Assets\Code\Missile.cs" />
     <Compile Include="Assets\Code\ObjectPooling.cs" />
     <Compile Include="Assets\Code\Player\City.cs" />
+    <Compile Include="Assets\Code\Player\DefenceWeapon.cs" />
     <Compile Include="Assets\Code\PlayerProjectile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

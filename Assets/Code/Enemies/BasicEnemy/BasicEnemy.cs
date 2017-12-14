@@ -10,11 +10,7 @@ public class BasicEnemy : Enemy {
     
 	void Update ()
     {
-        if (Input.GetMouseButton(0))
-        {
-            Fire();
-            Debug.Log("Fired");
-        }
+        
 
     }
 
