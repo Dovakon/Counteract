@@ -10,12 +10,13 @@ public class BasicEnemy : Enemy {
     
 	void Update ()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Fire();
+        }
         
-
     }
-
-
-
+    
     public void Fire()
     {
         

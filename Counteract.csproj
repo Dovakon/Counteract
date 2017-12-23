@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2017.2.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -220,16 +222,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\AntiMisisle.cs" />
+    <Compile Include="Assets\Code\Bullet.cs" />
     <Compile Include="Assets\Code\Enemies\BasicEnemy\BasicEnemy.cs" />
     <Compile Include="Assets\Code\Enemies\Enemy.cs" />
     <Compile Include="Assets\Code\Enemies\EnemyMissile.cs" />
     <Compile Include="Assets\Code\EnemyProjectile.cs" />
     <Compile Include="Assets\Code\HandleBorders.cs" />
+    <Compile Include="Assets\Code\Managers\DefenceManager.cs" />
     <Compile Include="Assets\Code\Missile.cs" />
     <Compile Include="Assets\Code\ObjectPooling.cs" />
     <Compile Include="Assets\Code\Player\City.cs" />
     <Compile Include="Assets\Code\Player\DefenceWeapon.cs" />
     <Compile Include="Assets\Code\PlayerProjectile.cs" />
+    <Compile Include="Assets\Code\Projectile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

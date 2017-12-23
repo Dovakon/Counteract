@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Missile : MonoBehaviour {
-
-    public int Health;
+public class Missile : Projectile {
+    
     public int Damage;
     public int Speed;
     public int rotatingSpeed;
@@ -42,4 +41,8 @@ public class Missile : MonoBehaviour {
         Destination = dest;
         canMove = true;
     }
+
+    
+   
+
 }

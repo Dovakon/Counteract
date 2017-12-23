@@ -7,6 +7,6 @@ public class HandleBorders : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.SetActive(false);
+        collision.gameObject.GetComponent<Projectile>().DestroyProjectile();
     }
 }
